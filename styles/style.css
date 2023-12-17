@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("Background1.svg");
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+.container {
+  background: rgba(255, 255, 255, 0);
+  padding: 25px;
+  max-width: 760px;
+  margin: 25px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  font-family: sans-serif;
+  box-shadow: 0 8px 32px 0 rgba(8, 8, 13, 0.37);
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(9.5px);
+  
+}
+
+h1,
+h2 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #b1c9bb;
+  padding: 0 0 10px;
+  color: #57635c;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+}
+
+.logo img {
+  width: 100px;
+  border-radius: 7px;
+}
+
+.new-task-container {
+  text-align: center;
+}
+
+.box {
+  border-radius: 15px;
+  margin: 15px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 #3c664e83;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(8.5px);
+}
+
+input {
+  background-color: #bfe9d1;
+  border: 2px solid #bfe9d1;
+  border-radius: 4px;
+}
+
+.todo-list {
+  float: left;
+  width: 46%;
+}
+
+.complete-list {
+  float: right;
+  width: 46%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px dotted #ccc;
+}
+
+.update {
+  float: right;
+  background-color: blue;
+  color: white;
+  border: 0px;
+  padding: 3px 5px;
+}
+
+.delete {
+  float: right;
+  background-color: red;
+  color: white;
+  border: 2px solid red;
+  border-radius: 3px;
+  padding: 3px 5px;
+}
+#addTask {
+  background-color: teal;
+  color: white;
+  border: 2px solid teal;
+  border-radius: 3px;
+}
